@@ -1,0 +1,321 @@
+body{
+    background-color: white;
+   /* background-image:url("../img/1.jpeg");
+    background-size: cover;*/
+}
+
+/*button styles*/
+.button1{
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+}
+
+button{
+    background-color: #333;
+    color: white;
+    padding: 13px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor:pointer;
+}
+
+  
+button:hover {
+    opacity: 0.8;
+}
+
+
+.navbar1{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background: #333;   
+	height: 50px;
+	float: left;
+   color: rgb(226, 10, 10);
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;	
+}
+
+.menu ul li {
+    background: #333;
+    width:185px;
+    border: 1px solid #ffffff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu ul li:hover{
+    background: 333; 
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.menu ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+}
+
+.jk:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.jk:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.jk:hover {
+    color:#00ff15;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.jk:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.footerr{
+    left:0;
+    bottom:0;
+    position:fixed;
+    width:100%;
+    background-color: #333;
+    color:white;
+    
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size:35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5000;
+    text-transform: capitalize;
+    line-height:1px;
+    text-align: center;
+}
+
+.footer-content h4{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5000;
+    text-transform: capitalize;
+    line-height:1px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin:10px auto;
+    line-height: 20px;
+    font-size: 14px;
+    color: #cacdd2;
+    text-align: center;
+}
+
+/*Footer Bottom*/
+.footer-bottom{
+    background-color: #333;
+    width: 100%;
+    padding: 51px;
+    padding-left:0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    text-align: center;
+}
+
+.footer-bottom p{
+    background-color: #333;
+	float: left;
+    margin-left:10px;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform:capitalize;
+}
+
+.footer-bottom p a{
+    color:#00ff15;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+.footer-menu{
+    float: right;
+    background-color: #333;
+  
+  }
+  .footer-menu ul{
+    display: flex;
+  }
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  .footer-menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+/* Social Media Buttons */
+.socials{
+    list-style: none;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    margin-right:40px;
+    margin-bottom: 10px;
+}
+.socials li{
+    margin:15px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color:#00ff15;
+}
+
+.footerbar{
+	width: 100%;
+	margin-top: 20px;
+	background-color: #333;
+}
+
+.head{
+	margin-left: 10px;
+	margin-top: 10px;
+	color: white;
+}
+
+.p1{
+	margin-left: 60px;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+}
+
+h4{
+    color: #fff ;
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: #fff;
+}
+
+.row{
+	display:flex;
+	/*align-items:center;*/
+	flex-wrap:wrap;
+    z-index: -1;
+	padding-left:20px;
+	justify-content:center;
+	}
+
+
+.img {
+	
+	top:100px;
+	margin:20px;
+}
+
+
+/* Add styles to the form container */
+.form {
+  position: center;
+  display: flex;
+  right:700;
+  margin: 100px;
+  max-width: 2000px;
+  padding: 30px;
+  align-items: center;
+  
+}
+
+
+/* Full-width input fields */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.container{
+	width: fit-content;
+    margin-left: 248px;
+	top:200px;
+}
+
+.container h2{
+    text-align: center;
+}
