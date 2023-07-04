@@ -1,0 +1,103 @@
+.box-container{
+
+display:flex;
+position :relative;
+margin-top:244px;
+margin-right: 296px;
+
+
+
+
+}
+.box-container{
+
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    position:relative;
+}
+
+.contact-box{
+
+width:500px;
+background-color:rgb(180, 62, 62);
+box-shadow: 0 0 0 20px 0 #999;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+position: relative;
+margin-top:98px;
+margin-left: -44px;
+
+}
+
+form{
+
+
+    margin:35px;
+
+}
+.input-field{
+
+    width:400px;
+     height:40px;
+     margin-top: 20px;
+     padding-left:10px;
+     border:1px solid #777;
+     padding-right: 10px;
+     border-radius: 14px;
+     outline: none;
+}
+
+.textarea-field{
+
+
+height:150px;
+padding-top: 10px;
+
+
+}
+.btn{
+
+border-radius: 20px;
+color:#fff;
+margin-top:18px;
+padding: 10px;
+background-color:#47c35a;
+font-size: 12px;
+border:none;
+cursor: pointer;
+
+}
+
+.result-box{
+
+position: relative;
+left:229px;
+bottom: 500px;
+margin-top:58px;
+
+color:#fff;
+background-color:cornflowerblue;
+border-radius: 25px;
+
+
+
+}
+
+.result-box table tr{
+
+    font-family: sans-serif;
+
+}
+
+#messageicon{
+
+
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
